@@ -1,0 +1,57 @@
+#contorno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #c1d7cd;
+}
+#relleno {
+  width: 10px;
+  height: 10px;
+  background-color: #6eb79b;
+}
+.texto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+#espacio {
+  margin-bottom: -40px;
+}
+.joseph {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  color: #f0f0f0;
+}
+.ingeniero {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #101010; /* Color de relleno */
+  text-shadow: -1px -1px 0 #f0f0f0, 1px -1px 0 #f0f0f0, -1px 1px 0 #f0f0f0,
+    1px 1px 0 #f0f0f0; /* Contorno del texto */
+}
+#texto-joseph{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #f0f0f0;
+
+}
+#button{
+    background-color: #f0f0ff;
+    width: 140px;
+    height: 52px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}

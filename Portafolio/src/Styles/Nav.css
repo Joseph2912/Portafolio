@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #nav {
   display: flex;
   justify-content: center;
@@ -6,4 +9,7 @@
   border-color: #cccccc;
   border-style: solid;
   border-width: 0.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
