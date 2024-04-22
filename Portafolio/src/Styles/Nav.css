@@ -1,0 +1,9 @@
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 0.5px;
+}
