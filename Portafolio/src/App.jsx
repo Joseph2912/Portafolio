@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./componentes/Navbar";
 import Header from "./componentes/Header";
+import Web from "./componentes/Web";
 import "./App.css";
 
 function App() {
@@ -30,15 +31,18 @@ function App() {
   }, [isActive]);
 
   return (
-    <>
+    <div>
       <div id="cursor-ring" className={isActive ? "active" : ""}></div>
-      <nav className="mt-2" id="Nav">
+      <nav id="Nav">
         <Navbar />
       </nav>
       <header id="Header">
         <Header />
       </header>
-    </>
+      <div className="">
+        <Web />
+      </div>
+    </div>
   );
 }
 
