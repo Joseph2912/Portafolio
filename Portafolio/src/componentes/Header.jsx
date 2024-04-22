@@ -1,9 +1,11 @@
 import "../Styles/Header.css";
+
+
 const Header = () => {
   return (
     <div>
       <div
-        className="flex justify-center items-center mt-20 gap-3 text-white"
+        className="flex justify-center items-center mt-12 gap-3 text-white"
         id="contenedor"
       >
         <div className="rounded-full" id="contorno">
@@ -13,10 +15,7 @@ const Header = () => {
           <p>Abierto a oportunidades</p>
         </div>
       </div>
-      <div
-        className="flex justify-center items-center gap-5 mt-5"
-        id="espacio"
-      >
+      <div className="flex justify-center items-center gap-5 mt-5" id="espacio">
         <span className="joseph">JOSEPH</span>
         <span className="ingeniero">INGENIERO</span>
       </div>
@@ -31,14 +30,27 @@ const Header = () => {
           móviles y web. Mi enfoque se centra en crear experiencias.
         </p>
       </div>
-<div className="flex justify-center items-center mt-10">
-  <a href="tu_linkedin_url" target="_blank" rel="noopener noreferrer">
-    <button className="flex justify-center items-center rounded-full" id="button">
-    LinkedIn
-    </button>
-  </a>
-</div>
-
+      <div className="flex justify-center items-center mt-10">
+        <a
+          href="https://www.linkedin.com/in/joseph-cuartas"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            className="flex justify-center items-center rounded-full"
+            id="button"
+          >
+            LinkedIn
+          </button>
+        </a>
+      </div>
+      <div className="flex justify-between items-center mt-10" id="test">
+        <span>
+          correo: <div>elsjoseph@hotmail.com</div>
+        </span>
+        <span>Cali, Colombia</span>
+      </div>
+      <hr className="mt-10" />
     </div>
   );
 };

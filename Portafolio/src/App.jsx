@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <div id="cursor-ring" className={isActive ? "active" : ""}></div>
-      <nav className="mt-5" id="Nav">
+      <nav className="mt-2" id="Nav">
         <Navbar />
       </nav>
       <header id="Header">
