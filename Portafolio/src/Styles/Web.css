@@ -1,5 +1,20 @@
 #web {
   justify-content: center;
   align-items: center;
-  width: 100px;
+}
+#developer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #f0f0ff;
+  padding-left: 100px;
+}
+
+#parrafo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #f0f0ff;
+    max-width: 700px;
+    margin-left: 100px;
 }
