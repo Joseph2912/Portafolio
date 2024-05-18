@@ -1,3 +1,5 @@
+import Portfolio from "./Portfolio";
+import Carrousel from "./carrousel";
 import "../Styles/Web.css";
 
 const Web = () => {
@@ -5,6 +7,7 @@ const Web = () => {
     <div className="" id="web">
       <h2 className="mt-10" id="developer">
         WEB DEVELOPER
+        <span>FRONT END</span>
       </h2>
       <div>
         <p className="mt-10" id="parrafo">
@@ -14,6 +17,23 @@ const Web = () => {
           la Interaction Design Foundation.
         </p>
       </div>
+      <a
+        href="https://github.com/Joseph2912"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          className=" justify-center items-center rounded-full"
+          id="Proyectos"
+        >
+          Proyectos en Github
+        </button>
+      </a>
+      <Portfolio />
+      <div>
+        <Carrousel />
+      </div>
+      <hr id="line" />
     </div>
   );
 };
