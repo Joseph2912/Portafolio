@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./componentes/Navbar";
 import Header from "./componentes/Header";
 import Web from "./componentes/Web";
+import Unity from "./componentes/Unity";
+import Appdeveloper from "./componentes/Appdeveloper"
+import Footer from "./componentes/Footer";
 import "./App.css";
 
 function App() {
@@ -41,6 +44,15 @@ function App() {
       </header>
       <div className="">
         <Web />
+      </div>
+      <div className="">
+        <Unity />
+      </div>
+      <div className="">
+      <Appdeveloper />
+      </div>
+      <div className="">
+      <Footer />
       </div>
     </div>
   );
