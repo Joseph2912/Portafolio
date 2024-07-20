@@ -1,35 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Nav.css";
 
 const Navbar = () => {
-  return (
-    <nav
-      className="text-white py-4 px-8 sticky top-0 rounded-full w-fit"
-      id="nav"
-    >
-<div className="max-w-max mx-auto flex justify-between items-center">
-  <div className="flex space-x-4 gap-5">
-    <a href="#" className="hover:text-gray-300">
-      Inicio
-    </a>
-    <a href="#" className="hover:text-gray-300">
-      Web Developer
-    </a>
-    <a href="#" className="hover:text-gray-300">
-      Game Developer
-    </a>
-    <a href="#" className="hover:text-gray-300">
-      App Developer
-    </a>
-    <a href="#" className="hover:text-gray-300">
-      Viate
-    </a>
-    <a href="#" className="hover:text-gray-300">
-      Contáctame
-    </a>
-  </div>
-</div>
+  const [isOpen, setIsOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="navbar" id="nav">
+      <div className={`nav_items ${isOpen ? "open" : ""}`}>
+        <a href="#home">Inicio</a>
+        <a href="#web">Web Developer</a>
+        <a href="#game-developer">Game Developer</a>
+        <a href="#app-developer">App Developer</a>
+        <a
+          href="https://drive.google.com/file/d/1k21-RV5W1mBdGJxAwem5QDH-kVk6zuug/view"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Viate
+        </a>
+        <a
+          href="https://wa.me/+573132435910"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contáctame
+        </a>
+      </div>
+      <div className={`nav_toggle ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 };

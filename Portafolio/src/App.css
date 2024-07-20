@@ -11,6 +11,9 @@
   padding: 0;
 }
 
+html {
+  scrollbar-color: #ccc #101010;
+}
 #Nav {
   display: flex;
   justify-content: center;

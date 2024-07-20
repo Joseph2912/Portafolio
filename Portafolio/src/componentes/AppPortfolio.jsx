@@ -2,6 +2,7 @@ import "../Styles/Portfolio.css";
 
 const AppPortfolio = () => {
   return (
+    <div id="app-developer">
     <div id="container">
       <h3 id="portfolio">Portafolio</h3>
       <div id="proyecto">
@@ -20,6 +21,7 @@ const AppPortfolio = () => {
          
         </div>
       </div>
+    </div>
     </div>
   );
 };

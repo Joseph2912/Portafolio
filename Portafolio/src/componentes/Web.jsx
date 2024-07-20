@@ -1,8 +1,12 @@
+// Web.js
+import React, { useContext } from "react";
 import Portfolio from "./Portfolio";
 import Carrousel from "./carrousel";
 import "../Styles/Web.css";
 
 const Web = () => {
+
+
   return (
     <div className="" id="web">
       <h2 className="mt-10" id="developer">

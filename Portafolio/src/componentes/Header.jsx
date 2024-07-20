@@ -2,7 +2,7 @@ import "../Styles/Header.css";
 
 const Header = () => {
   return (
-    <div className="w-screen" id="contenedor">
+    <div className="w-screen" id="home">
       <div className="flex justify-center items-center mt-12 gap-3 text-white">
         <div className="rounded-full" id="contorno">
           <div className="rounded-full" id="relleno"></div>

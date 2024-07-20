@@ -153,6 +153,14 @@
   margin-bottom: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
   margin-left: 20px;
+  transition: transform 0.3s ease-in-out; /* Agrega una transición suave a la transformación */
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: scale(0.95); /* Reducir ligeramente el tamaño cuando se presiona el botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Cambiar la sombra para dar retroalimentación visual */
+  }
 }
 
 #juegos {
