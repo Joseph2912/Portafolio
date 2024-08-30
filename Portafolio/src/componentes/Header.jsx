@@ -13,11 +13,11 @@ const Header = () => {
       </div>
       <div className="flex justify-center items-center gap-5 mt-5" id="espacio">
         <span className="joseph">JOSEPH</span>
-        <span className="ingeniero">INGENIERO</span>
+        <span className="ingeniero" id="inge">INGENIERO</span>
       </div>
       <div className="flex justify-center items-center gap-5">
-        <span className="ingeniero">MULTIMEDIA</span>
-        <span className="joseph">CUARTAS</span>
+        <span className="ingeniero" id="multi">MULTIMEDIA</span>
+        <span className="joseph" id="cuartas">CUARTAS</span>
       </div>
       <div className="flex justify-center items-center mt-5">
         <p className=" justify-center items-center" id="texto-joseph">

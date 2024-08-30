@@ -82,3 +82,40 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+
+@media (max-width: 768px) {
+  .joseph {
+    font-size: 60px;
+  }
+  .ingeniero {
+    font-size: 28px;
+  }
+  #texto-joseph {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .joseph {
+    font-size: 42px;
+  }
+  #cuartas{
+    padding-top: 15px;
+    margin-left: -8px;;
+  }
+  #multi {
+    font-size: 17.5px;
+    padding-top: 15px;  
+  }
+  #inge {
+    font-size: 18px;
+  }
+  #texto-joseph {
+    font-size: 12px;
+    max-width: 330px;
+    text-wrap: pretty;
+  }
+  #test{
+    display: none;
+  }
+}
