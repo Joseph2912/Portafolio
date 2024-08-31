@@ -68,11 +68,12 @@
     transform: scale(1.1);
   }
   &:active {
-    transform: scale(0.95); /* Reducir ligeramente el tamaño cuando se presiona el botón */
+    transform: scale(
+      0.95
+    ); /* Reducir ligeramente el tamaño cuando se presiona el botón */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Cambiar la sombra para dar retroalimentación visual */
   }
 }
-
 
 #test {
   color: #f0f0f0;
@@ -85,10 +86,12 @@
 
 @media (max-width: 768px) {
   .joseph {
-    font-size: 60px;
+    font-size: 6vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    max-width: 50vw; /* Ancho máximo relativo al ancho de la ventana */
   }
   .ingeniero {
-    font-size: 28px;
+    font-size: 2.8vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    display: none;
   }
   #texto-joseph {
     font-size: 14px;
@@ -97,25 +100,29 @@
 
 @media (max-width: 576px) {
   .joseph {
-    font-size: 42px;
+    font-size: 12vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    max-width: 90vw; /* Ancho máximo relativo al ancho de la ventana */
+    
   }
-  #cuartas{
+  #cuartas {
     padding-top: 15px;
-    margin-left: -8px;;
+    margin-left: -8px;
+    
   }
   #multi {
-    font-size: 17.5px;
-    padding-top: 15px;  
+    font-size: 1vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    padding-top: 2vh; /* Padding superior relativo al alto de la ventana */
   }
   #inge {
     font-size: 18px;
+    
   }
   #texto-joseph {
     font-size: 12px;
-    max-width: 330px;
     text-wrap: pretty;
+    max-width: 80vw; /* Ancho máximo relativo al ancho de la ventana */
   }
-  #test{
+  #test {
     display: none;
   }
 }
