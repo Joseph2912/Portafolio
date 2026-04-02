@@ -1,0 +1,105 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 5242 >>
+stream
+BT /F2 24 Tf 0.08 0.11 0.15 rg 1 0 0 1 54 748 Tm (Joseph Cuartas) Tj ET
+BT /F2 13 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 720 Tm (Frontend Developer) Tj ET
+BT /F1 10 Tf 0.33 0.36 0.4 rg 1 0 0 1 54 702 Tm (Valle del Cauca, Colombia | joseph.cuartas.dev@gmail.com | josephcuartas.dev) Tj ET
+BT /F1 10 Tf 0.33 0.36 0.4 rg 1 0 0 1 54 688 Tm (LinkedIn: linkedin.com/in/joseph-cuartas | GitHub: github.com/Joseph2912) Tj ET
+BT /F2 9 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 668 Tm (PROFILE) Tj ET
+54 660 m 558 660 l 0.18 0.75 0.68 RG 0.7 w S
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 646 Tm (Frontend Developer with 2 years of experience building product interfaces for real-time) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 631 Tm (workflows. I work mainly with React, Next.js, TypeScript, Tailwind, Firebase, and) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 616 Tm (Supabase, with a focus on clear dashboards, scheduling flows, tracking views, and) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 601 Tm (operational UI that stays usable under latency or unstable connectivity.) Tj ET
+BT /F2 9 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 580 Tm (EXPERIENCE) Tj ET
+54 572 m 558 572 l 0.18 0.75 0.68 RG 0.7 w S
+BT /F2 12 Tf 0.08 0.11 0.15 rg 1 0 0 1 54 558 Tm (VideFace | Frontend Developer | 2025 - Present) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 542 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 542 Tm (Build and improve frontend interfaces for admins, agents, and end users across) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 527 Tm (scheduling and operational workflows.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 512 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 512 Tm (Improve real-time dashboard behavior with Realtime Database sync so assignment and) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 497 Tm (status changes are visible without reloads.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 482 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 482 Tm (Work on feedback states, tenant-based behavior, and recovery flows so actions feel) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 467 Tm (immediate and reliable in daily use.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 452 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 452 Tm (Contribute to monitoring and traceability tools that make administrative workflows) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 437 Tm (easier to follow from the UI.) Tj ET
+BT /F1 10 Tf 0.33 0.36 0.4 rg 1 0 0 1 54 420 Tm (Tech: React, Firestore, Realtime Database, Tailwind CSS, Electron) Tj ET
+BT /F2 12 Tf 0.08 0.11 0.15 rg 1 0 0 1 54 402 Tm (Dragonfly | Frontend Developer | 2023 - 2025) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 386 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 386 Tm (Built the mobile app interface for water-delivery logistics used by around 300 users) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 371 Tm (across 7 trucks in daily operations.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 356 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 356 Tm (Implemented real-time views for driver location, route progress, order assignment, and) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 341 Tm (delivery status.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 326 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 326 Tm (Designed delivery capture flows that stayed usable under weak signal and synchronized) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 311 Tm (later when connectivity returned.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 296 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 296 Tm (Improved the client update path so tracking feedback felt fast during active field) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 281 Tm (use.) Tj ET
+BT /F1 10 Tf 0.33 0.36 0.4 rg 1 0 0 1 54 264 Tm (Tech: React Native, Firebase, Realtime Database, Maps) Tj ET
+BT /F2 9 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 244 Tm (SELECTED PROJECT) Tj ET
+54 236 m 558 236 l 0.18 0.75 0.68 RG 0.7 w S
+BT /F2 12 Tf 0.08 0.11 0.15 rg 1 0 0 1 54 222 Tm (WhatsMyTask | Personal Project) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 206 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 206 Tm (Designed a workflow that turns fragmented WhatsApp conversations into structured) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 191 Tm (tasks.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 176 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 176 Tm (Reduced noisy AI calls by filtering low-value traffic before processing and grouping) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 161 Tm (related messages into a shared context window.) Tj ET
+BT /F1 11 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 146 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 146 Tm (Built the dashboard and interaction model to inspect, understand, and adjust) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 68 131 Tm (extraction behavior.) Tj ET
+BT /F1 10 Tf 0.33 0.36 0.4 rg 1 0 0 1 54 114 Tm (Tech: React, TypeScript, Express, Firebase, Cloud Firestore, Realtime Database, Gemini API, Zod) Tj ET
+BT /F2 9 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 94 Tm (SKILLS) Tj ET
+54 86 m 558 86 l 0.18 0.75 0.68 RG 0.7 w S
+endstream
+endobj
+4 0 obj
+<< /Length 500 >>
+stream
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 748 Tm (React, Next.js, Vite, TypeScript, Tailwind CSS, shadcn/ui, Zustand, Supabase, Firebase,) Tj ET
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 733 Tm (Clerk, Prisma, Zod, Figma, Notion, Claude, GitHub Copilot) Tj ET
+BT /F2 9 Tf 0.07 0.72 0.65 rg 1 0 0 1 54 712 Tm (EDUCATION) Tj ET
+54 704 m 558 704 l 0.18 0.75 0.68 RG 0.7 w S
+BT /F1 10.5 Tf 0.16 0.17 0.2 rg 1 0 0 1 54 690 Tm (Universidad Autonoma de Occidente | Multimedia Engineering background) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000005448 00000 n 
+0000005999 00000 n 
+0000006135 00000 n 
+0000006271 00000 n 
+0000006334 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+6383
+%%EOF

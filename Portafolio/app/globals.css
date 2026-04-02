@@ -1,0 +1,264 @@
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+        --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+        --background: oklch(0.98 0 0);
+        --foreground: oklch(0.09 0 0);
+        --card: oklch(1 0 0);
+        --card-foreground: oklch(0.09 0 0);
+        --popover: oklch(1 0 0);
+        --popover-foreground: oklch(0.09 0 0);
+        --primary: oklch(0.15 0 0);
+        --primary-foreground: oklch(0.98 0 0);
+        --secondary: oklch(0.95 0 0);
+        --secondary-foreground: oklch(0.15 0 0);
+        --muted: oklch(0.95 0 0);
+        --muted-foreground: oklch(0.45 0 0);
+        --accent: oklch(0.93 0 0);
+        --accent-foreground: oklch(0.15 0 0);
+        --destructive: oklch(0.577 0.245 27.325);
+        --destructive-foreground: oklch(0.98 0 0);
+        --border: oklch(0.9 0 0);
+        --input: oklch(0.9 0 0);
+        --ring: oklch(0.65 0 0);
+        --radius: 0.75rem;
+        --radius-panel: 1.5rem;
+        --radius-surface: 1rem;
+        --radius-control: 0.75rem;
+        --space-1: 4px;
+        --space-2: 8px;
+        --space-3: 12px;
+        --space-4: 16px;
+        --space-6: 24px;
+        --space-8: 32px;
+        --space-12: 48px;
+        --space-16: 64px;
+        --touch-target: 44px;
+        --grid-cell: 24px;
+        --grid-major: 120px;
+        --grid-surface: oklch(0.968 0 0);
+        --grid-line: oklch(0.62 0 0 / 0.16);
+        --grid-line-major: oklch(0.54 0 0 / 0.24);
+    }
+
+    .dark {
+        --background: oklch(0.11 0 0);
+        --foreground: oklch(0.98 0 0);
+        --card: oklch(0.16 0 0);
+        --card-foreground: oklch(0.98 0 0);
+        --popover: oklch(0.16 0 0);
+        --popover-foreground: oklch(0.98 0 0);
+        --primary: oklch(0.92 0 0);
+        --primary-foreground: oklch(0.1 0 0);
+        --secondary: oklch(0.2 0 0);
+        --secondary-foreground: oklch(0.98 0 0);
+        --muted: oklch(0.19 0 0);
+        --muted-foreground: oklch(0.72 0 0);
+        --accent: oklch(0.2 0 0);
+        --accent-foreground: oklch(0.98 0 0);
+        --destructive: oklch(0.704 0.191 22.216);
+        --destructive-foreground: oklch(0.98 0 0);
+        --border: oklch(0.28 0 0);
+        --input: oklch(0.28 0 0);
+        --ring: oklch(0.55 0 0);
+        --grid-surface: oklch(0.11 0 0);
+        --grid-line: oklch(0.9 0 0 / 0.08);
+        --grid-line-major: oklch(0.92 0 0 / 0.12);
+    }
+
+    * {
+        @apply border-border;
+    }
+
+    html {
+        @apply font-sans;
+        scroll-behavior: smooth;
+        scroll-padding-top: 5.5rem;
+    }
+
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        position: relative;
+        isolation: isolate;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+        background-color: oklch(0.4 0 0);
+        color: #fff;
+    }
+
+    code {
+        font-family:
+            var(--font-geist-mono), ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+    }
+
+    section[id] {
+        scroll-margin-top: 5.5rem;
+    }
+
+    .availability-dot {
+        animation: availability-pulse 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    @keyframes availability-pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50%       { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .availability-dot { animation: none; }
+    }
+}
+
+@layer components {
+    .technical-label {
+        font-family:
+            var(--font-geist-mono), ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+        letter-spacing: 0.18em;
+    }
+
+    .technical-copy {
+        font-family:
+            var(--font-geist-mono), ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+        letter-spacing: -0.01em;
+    }
+
+    @keyframes availability-glow {
+        0%,
+        100% {
+            opacity: 0.65;
+            transform: scale(0.94);
+            box-shadow: 0 0 0 0 rgba(20, 184, 166, 0);
+        }
+
+        35% {
+            opacity: 1;
+            transform: scale(1.08);
+            box-shadow:
+                0 0 0 5px rgba(20, 184, 166, 0.08),
+                0 0 18px rgba(20, 184, 166, 0.34);
+        }
+
+        65% {
+            opacity: 0.82;
+            transform: scale(1);
+            box-shadow:
+                0 0 0 2px rgba(20, 184, 166, 0.04),
+                0 0 10px rgba(20, 184, 166, 0.18);
+        }
+    }
+
+    .availability-dot {
+        animation: availability-glow 2.8s var(--ease-out) infinite;
+        transform-origin: center;
+        will-change: transform, opacity, box-shadow;
+    }
+
+    .workbench-grid {
+        background-color: var(--grid-surface);
+        background-image:
+            linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+        background-size: var(--grid-cell) var(--grid-cell);
+        opacity: 1;
+    }
+
+    .workbench-grid-major {
+        background-image:
+            linear-gradient(to right, var(--grid-line-major) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--grid-line-major) 1px, transparent 1px);
+        background-size: var(--grid-major) var(--grid-major);
+        opacity: 0.7;
+    }
+
+    .dark .workbench-grid,
+    .dark .workbench-grid-major {
+        display: none;
+    }
+
+    .panel-surface {
+        position: relative;
+        overflow: clip;
+        border: 1px solid color-mix(in oklab, var(--border) 60%, transparent);
+        border-radius: var(--radius-panel);
+        background-color: transparent;
+        padding: var(--space-6);
+    }
+
+    @media (min-width: 640px) {
+        .panel-surface {
+            padding: var(--space-8);
+        }
+    }
+
+    .panel-surface-hero {
+        border-color: color-mix(in oklab, var(--border) 78%, transparent);
+        background-color: color-mix(in oklab, var(--card) 94%, var(--background));
+        box-shadow:
+            0 1px 0 0 var(--border),
+            0 0 40px -16px color-mix(in oklab, var(--foreground) 28%, transparent);
+        padding-block: 2.5rem;
+    }
+
+    @media (min-width: 640px) {
+        .panel-surface-hero {
+            padding-block: 3.5rem;
+        }
+    }
+
+    .panel-surface-feature {
+        border-color: color-mix(in oklab, var(--border) 72%, transparent);
+        background-color: color-mix(in oklab, var(--card) 96%, var(--background));
+        box-shadow:
+            0 1px 0 0 var(--border),
+            0 24px 44px -36px color-mix(in oklab, var(--foreground) 24%, transparent);
+    }
+
+    .panel-surface-flat {
+        background-color: color-mix(in oklab, var(--card) 98%, var(--background));
+    }
+
+    .panel-surface-ghost {
+        border-color: color-mix(in oklab, var(--border) 40%, transparent);
+        background-color: color-mix(in oklab, var(--card) 82%, transparent);
+        box-shadow:
+            0 1px 0 0 color-mix(in oklab, var(--border) 56%, transparent),
+            0 20px 40px -36px color-mix(in oklab, var(--foreground) 18%, transparent);
+        backdrop-filter: blur(12px);
+    }
+
+    .dark .panel-surface-hero,
+    .dark .panel-surface-feature,
+    .dark .panel-surface-flat,
+    .dark .panel-surface-ghost {
+        background-color: color-mix(in oklab, var(--card) 96%, var(--background));
+        box-shadow:
+            0 1px 0 0 color-mix(in oklab, var(--border) 75%, transparent),
+            0 24px 48px -34px color-mix(in oklab, #000 58%, transparent);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
