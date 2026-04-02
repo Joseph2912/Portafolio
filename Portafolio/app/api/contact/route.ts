@@ -6,7 +6,7 @@ import { contactSchema } from "@/lib/validations";
 export async function POST(request: Request) {
     try {
         const apiKey = process.env.RESEND_API_KEY;
-        const fromEmail = process.env.RESEND_FROM_EMAIL ?? "Portfolio Contact <onboarding@resend.dev>";
+        const fromEmail = "Portfolio Contact <onboarding@resend.dev>";
 
         if (!apiKey) {
             return NextResponse.json({ error: "Email service not configured" }, { status: 503 });
