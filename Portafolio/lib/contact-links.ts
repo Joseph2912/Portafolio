@@ -1,6 +1,6 @@
 import type { Language } from "@/lib/translations";
 
-export const CONTACT_EMAIL = "joseph.cuartas.dev@gmail.com";
+export const CONTACT_EMAIL = "elsjoseph@hotmail.com";
 export const WHATSAPP_PHONE = "573132435910";
 export const RESUME_DOWNLOAD_PATH = "https://drive.google.com/uc?export=download&id=1ytVwn3pbDFtsj8qp79lyhq3uEEXN1Q4s";
 
