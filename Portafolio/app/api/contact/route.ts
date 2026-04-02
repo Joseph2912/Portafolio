@@ -25,7 +25,7 @@ export async function POST(request: Request) {
 
         const { name, email, message } = result.data;
 
-        await resend.emails.send({
+        const { error: resendError } = await resend.emails.send({
             from: fromEmail,
             to: CONTACT_EMAIL,
             replyTo: email,
@@ -33,8 +33,14 @@ export async function POST(request: Request) {
             text: `From: ${name} <${email}>\n\n${message}`,
         });
 
+        if (resendError) {
+            console.error("Resend error:", resendError);
+            return NextResponse.json({ error: resendError.message }, { status: 500 });
+        }
+
         return NextResponse.json({ success: true });
-    } catch {
+    } catch (err) {
+        console.error("Contact route error:", err);
         return NextResponse.json({ error: "Failed to send message" }, { status: 500 });
     }
 }
